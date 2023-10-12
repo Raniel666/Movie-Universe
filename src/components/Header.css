@@ -1,0 +1,57 @@
+
+
+@font-face {
+    font-family: 'Birds';
+    src: url("../../public/fonts/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf");
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 2.4em;
+    background: url('../../public/img/fondo.jpg');
+    background-color: rgba(34, 34, 34, 0.459);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: bottom;
+    
+   
+    box-shadow: 0px 2px 19px rgba(0, 0, 0, 0.527),0px 2px 29px black,0px 2px 99px black;
+
+
+}
+
+
+.title1{
+    font-family: "Birds";
+    font-size: 7em;
+    text-shadow: 1px 1px 2px black,2px 2px 3px black,4px 4px 3px black,4px 4px 3px black ;
+   
+     color: #d6d6d6;
+      /* color: #d6c795; */
+    text-wrap:pretty;
+    letter-spacing: 0.01em;
+    
+
+}
+
+@media (max-width:780px) {
+    .title1{
+    
+        font-size: 5rem;
+
+    }
+    
+    
+}
+@media (min-width:1020px) {
+    .title1{
+       
+        font-size: 10rem;
+
+    }
+    
+    
+}
