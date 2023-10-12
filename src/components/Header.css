@@ -1,9 +1,9 @@
-
-
 @font-face {
     font-family: 'Birds';
-    src: url("../../src/fonts/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf");
-}
+    src: url("../assets/fonts/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf");
+  }
+
+
 
 .head{
     display: flex;

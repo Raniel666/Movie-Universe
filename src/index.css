@@ -667,14 +667,7 @@ textarea:not([rows]) {
   min-height: 40px;
   height: 140px;
 }
-@font-face {
-  font-family: 'Birds';
-  src: url("../public/fonts/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf");
-}
 
-.head{
-  font-family: "Birds";
-}
 
 body{
 background-image: url("https://www.transparenttextures.com/patterns/grey-sandbag.png");
@@ -755,4 +748,13 @@ body{
 /* All delay classes will take half the time to start */
 :root {
   --animate-delay: 0.5s;
+}
+
+@font-face {
+  font-family: 'Birds';
+  src: url("../src/assets/fonts/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf");
+}
+
+.title1{
+  font-size: "Birds";
 }
