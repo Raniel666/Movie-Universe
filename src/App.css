@@ -115,6 +115,11 @@ input:focus,input:active{
 }
 .container-movie ul li {
   position: relative;
+ 
+  transition: all 0.3s ease-in-out;
+}
+.container-movie ul li:hover{
+  transform: translateY(-10px);
 }
 .imgposter{
   border-radius: 12px;
