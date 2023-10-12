@@ -761,7 +761,8 @@ body{
 }
 @font-face {
   font-family: "Birds";
-  src: url('../src/fonts/cream_cake/Cream\ Cake.otf');
+  src: url('../public/fonts/white_monkey/WhiteMonkey-Regular.ttf');
+  font-weight: 100;
 }
 
 .title1{
