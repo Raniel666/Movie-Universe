@@ -667,7 +667,14 @@ textarea:not([rows]) {
   min-height: 40px;
   height: 140px;
 }
+@font-face {
+  font-family: 'Birds';
+  src: url("../public/fonts/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf");
+}
 
+.head{
+  font-family: "Birds";
+}
 
 body{
 background-image: url("https://www.transparenttextures.com/patterns/grey-sandbag.png");
