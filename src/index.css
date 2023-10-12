@@ -750,3 +750,20 @@ body{
   --animate-delay: 0.5s;
 }
 
+
+@font-face {
+  font-family: "WhiteMonkey";
+  src: url('../src/fonts/white_monkey/WhiteMonkey-Regular.ttf');
+}
+@font-face {
+  font-family: "One";
+  src: url('../src/fonts/one_slice/One\ Slice.otf');
+}
+@font-face {
+  font-family: "Birds";
+  src: url('../src/fonts/cream_cake/Cream\ Cake.otf');
+}
+
+.title1{
+  font-size: "Birds";
+}
