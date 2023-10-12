@@ -51,16 +51,7 @@ list-style: none;
 
 box-shadow: 1px 1px 8px  rgba(0, 0, 0, 0.801),3px 3px 8px  rgba(0, 0, 0, 0.507),5px 5px 10px  rgba(0, 0, 0, 0.274),8px 10px 12px  rgba(0, 0, 0, 0.568);
 }
-@media (width:320px) {
-  .container-movie ul li{
-    width: 220px;
-    height: 400px;
-  }
-  .container-movie ul li .subtitulo{
-    font-size: 1.5em;
-  }
-  
-}
+
 
 body{
   width: 100%;
@@ -87,9 +78,10 @@ body{
 
 
 .container-movie ul li:hover  .detail .year{
-  font-size: 1.4em;
+  font-size: 0.9em;
   font-weight: bold;
   color: gold;
+  margin: 0.3em 0px;
 }
 
 .container-movie ul li:hover  .subtitulo{
@@ -110,7 +102,8 @@ input:focus,input:active{
 .container-movie ul li:hover  .detail .type{
   text-transform: capitalize;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 0.9em;
+  margin:0.4em 0px ;
   color: #E7DFDD;
   text-shadow: 1px 1px 2px black
 }
@@ -193,10 +186,9 @@ form{
   flex: 3;
   margin: 0px;
 }
-@media (max-width:5764px) {
+@media (max-width:576px) {
   .input{
     width: 90%;
-    background-color: #87a7e4;
   }
   .input .search-input{
     padding: 8px 0px;
@@ -227,7 +219,6 @@ form{
 @media (max-width:375px) {
   .input{
     width: 100%;
-    background-color: #7b9cd8;
     
   }
   .input .search-input{
@@ -240,6 +231,13 @@ form{
   .input button,.btn{
     font-size: 10px;
     width: 2%;
+  }
+  .container-movie ul li{
+    width: 300px;
+    height: 500px;
+  }
+  .container-movie ul li .subtitulo{
+    font-size: 1.4em;
   }
 }
 
@@ -281,7 +279,6 @@ width: 300px;
 @media (max-width:350px) {
   .input{
     width: 100%;
-    background-color: #7b9cd8;
   }
   .input .search-input{
     padding: 8px 8px;
@@ -388,4 +385,26 @@ height: 120px;
   display: flex;
   margin: 0px;
   gap: 2em;
+}
+
+@media (max-width:320px) {
+  .container-movie ul li{
+    width: 250px;
+    height: 400px;
+  }
+  .container-movie ul li .subtitulo{
+    font-size: 1.5em;
+  }
+  
+}
+.container-movie ul li .subtitulo{
+  font-size: 1.5em;
+}
+
+@media (max-width:600px) {
+ 
+  .container-movie ul li .subtitulo{
+    font-size: 1.3em;
+  }
+  
 }
