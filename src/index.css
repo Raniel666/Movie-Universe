@@ -768,3 +768,13 @@ body{
 .title1{
   font-size: "Birds";
 }
+body{
+  padding: 0px;
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+ul{
+  padding: 0%;
+}

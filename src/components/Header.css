@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: center;
     height: 30vh;
-    margin-bottom: 2.4em;
     background: url('../../public/img/fondo.jpg');
     background-color: rgba(34, 34, 34, 0.459);
     background-size: cover;
@@ -22,7 +21,7 @@
 
 .title1{
     font-family: "Birds";
-    font-size: 7em;
+    font-size: 6em;
     text-shadow: 1px 1px 2px black,2px 2px 3px black,4px 4px 3px black,4px 4px 3px black ;
    
      color: #d6d6d6;
@@ -33,21 +32,51 @@
 
 }
 
-@media (max-width:780px) {
-    .title1{
+@media (max-width:375px) {
+    .head{
+        margin-bottom: 0;
     
-        font-size: 5rem;
-
-    }
-    
-    
-}
-@media (min-width:1020px) {
-    .title1{
+        background-position: top;
+        text-align: center;
+        
        
-        font-size: 10rem;
-
+    
+    
     }
+    .title1{
+        font-family: "Birds";
+        font-size: 4em;
+        text-shadow: 1px 1px 2px black,2px 2px 3px black,4px 4px 3px black,4px 4px 3px black ;
+       
+         color: #d6d6d6;
+          /* color: #d6c795; */
+        text-wrap:pretty;
+        letter-spacing: 0.01em;
+        
     
+    }
+
+
+}
+
+@media (max-width:780px) {
+    .head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        padding: 0px;
     
+    }
+    .title1{
+        
+        font-size: 4em;
+        text-align: center;
+        margin: 3px auto;
+
+        
+    
+    }
+
+
 }
