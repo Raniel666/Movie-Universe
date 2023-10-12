@@ -151,7 +151,7 @@ const  handleSort =(event)=>{
     </main>
     <section className='container-Error'>
     {error?<Error error={error} setError={setErrorCheck}/>:null}
-    {errorFlags&&!loading?<Error error={errorFlags} setError={setError}/>:null}
+    {errorFlags&&!loading==false&&movies==undefined?<Error error={errorFlags} setError={setError}/>:null}
 
     </section>
 

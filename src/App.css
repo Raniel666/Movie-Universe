@@ -38,8 +38,8 @@ form{
   background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
-  width: 480px;
-  height: 700px;
+  width: 320px;
+  height: 500px;
   
   border-radius: 2%;
   justify-content: center;
@@ -216,9 +216,7 @@ height: 120px;
   width: 100%;
 }
 
-.detail{
-  font-size: 1.3em;
-}
+
 .buttons{
   display: flex;
   justify-content: flex-end;
@@ -251,4 +249,21 @@ height: 120px;
   justify-content: space-between;
   align-items: center;
   gap: 0px;
+}
+@media (max-width:480px) {
+  .detail{
+    font-size: 1.1em;
+    display: flex;
+    margin: 0px;
+    gap: 2.2em;
+  }
+ 
+  
+}
+
+.detail{
+  font-size: 1.3em;
+  display: flex;
+  margin: 0px;
+  gap: 2em;
 }
