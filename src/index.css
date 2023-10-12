@@ -750,11 +750,3 @@ body{
   --animate-delay: 0.5s;
 }
 
-@font-face {
-  font-family: 'Birds';
-  src: url("../public/fonts/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf");
-}
-
-.title1{
-  font-size: "Birds";
-}
